@@ -4,8 +4,8 @@
 %define		_status		alpha
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Automated word hyphenation with the TeX algorithm.
-#Summary(pl):	%{_pearname} -
+Summary:	%{_pearname} - automated word hyphenation with the TeX algorithm
+Summary(pl):	%{_pearname} - automatyczne przenoszenie wyrazów przy u¿yciu algorytmu TeXa
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	1
@@ -26,17 +26,27 @@ pattern.
 The package can support various backends for pattern retrieval. At
 this stage only flat files with TeX pattern were implemented. The
 advantage of the TeX pattern is the available multi-language support.
-Currently german, oxford and american english are supported.
+Currently German, Oxford and American English are supported.
 
 For speed purposes an interface for a cache of hyphenated words was
 implemented.
 
 In PEAR status of this package is: %{_status}.
 
-#%%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+Ten pakiet jest implementacj± przenoszenia wyrazów z TeXa w oparciu o
+wzorce.
+
+Pakiet mo¿e obs³ugiwaæ ró¿ne backendy do uzyskiwania wzorców. Na tym
+etapie zaimplementowane s± tylko p³askie pliki z wzorcami TeXowymi.
+Zalet± wzorców TeXowych jest mo¿liwo¶æ obs³ugi wielu jêzyków.
+Aktualnie obs³ugiwany jest jêzyk niemiecki oraz oksfordzki i
+amerykañski angielski.
+
+W celu przyspieszenia dzia³ania zosta³ zaimplementowany interfejs do
+buforowania z³amanych wyrazów.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
