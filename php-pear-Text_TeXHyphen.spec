@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - automated word hyphenation with the TeX algorithm
-Summary(pl):	%{_pearname} - automatyczne przenoszenie wyrazów przy u¿yciu algorytmu TeXa
+Summary(pl.UTF-8):   %{_pearname} - automatyczne przenoszenie wyrazÃ³w przy uÅ¼yciu algorytmu TeXa
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
 Release:	4
@@ -36,24 +36,24 @@ implemented.
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-Ten pakiet jest implementacj± przenoszenia wyrazów z TeXa w oparciu o
+%description -l pl.UTF-8
+Ten pakiet jest implementacjÄ… przenoszenia wyrazÃ³w z TeXa w oparciu o
 wzorce.
 
-Pakiet mo¿e obs³ugiwaæ ró¿ne backendy do uzyskiwania wzorców. Na tym
-etapie zaimplementowane s± tylko p³askie pliki z wzorcami TeXowymi.
-Zalet± wzorców TeXowych jest mo¿liwo¶æ obs³ugi wielu jêzyków.
-Aktualnie obs³ugiwany jest jêzyk niemiecki oraz oksfordzki i
-amerykañski angielski.
+Pakiet moÅ¼e obsÅ‚ugiwaÄ‡ rÃ³Å¼ne backendy do uzyskiwania wzorcÃ³w. Na tym
+etapie zaimplementowane sÄ… tylko pÅ‚askie pliki z wzorcami TeXowymi.
+ZaletÄ… wzorcÃ³w TeXowych jest moÅ¼liwoÅ›Ä‡ obsÅ‚ugi wielu jÄ™zykÃ³w.
+Aktualnie obsÅ‚ugiwany jest jÄ™zyk niemiecki oraz oksfordzki i
+amerykaÅ„ski angielski.
 
-W celu przyspieszenia dzia³ania zosta³ zaimplementowany interfejs do
-buforowania z³amanych wyrazów.
+W celu przyspieszenia dziaÅ‚ania zostaÅ‚ zaimplementowany interfejs do
+buforowania zÅ‚amanych wyrazÃ³w.
 
 Ta klasa ma w PEAR status: %{_status}.
 
 %package tests
 Summary:	Tests for PEAR::%{_pearname}
-Summary(pl):	Testy dla PEAR::%{_pearname}
+Summary(pl.UTF-8):   Testy dla PEAR::%{_pearname}
 Group:		Development/Languages/PHP
 Requires:	%{name} = %{epoch}:%{version}-%{release}
 AutoReq:	no
@@ -62,7 +62,7 @@ AutoProv:	no
 %description tests
 Tests for PEAR::%{_pearname}.
 
-%description tests -l pl
+%description tests -l pl.UTF-8
 Testy dla PEAR::%{_pearname}.
 
 %prep
