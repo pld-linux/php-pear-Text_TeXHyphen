@@ -8,7 +8,7 @@ Summary:	%{_pearname} - automated word hyphenation with the TeX algorithm
 Summary(pl.UTF-8):	%{_pearname} - automatyczne przenoszenie wyrazów przy użyciu algorytmu TeXa
 Name:		php-pear-%{_pearname}
 Version:	0.1.0
-Release:	4
+Release:	5
 Epoch:		0
 License:	PHP 2.02
 Group:		Development/Languages/PHP
