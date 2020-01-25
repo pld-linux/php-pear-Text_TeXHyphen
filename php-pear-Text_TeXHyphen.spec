@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_class		Text
 %define		_subclass	TeXHyphen
 %define		_status		alpha
